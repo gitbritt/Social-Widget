@@ -1,0 +1,194 @@
+/*Auther:Dillon Britt
+Email:dillonbritt@gmail.com
+sites: www.google.com/+DillonBritt*/
+
+/*outside border style */
+.main
+{
+background-color:#e3e3d5;
+width:270px;
+}
+p
+{
+font-family:Verdana, Geneva, sans-serif;
+font-size:10px;
+color:#888888;
+font-weight:100;
+}
+
+
+/* root element for tabs  */
+ul.tabs {
+    
+    list-style:none;
+    margin:0 !important;
+    padding:0;
+}
+
+/* single tab */
+ul.tabs li {
+    float:left;
+    text-indent:10;
+    padding:0;
+    margin:0 !important;
+    list-style-image:none !important;
+    
+}
+
+/* link inside the tab. uses a background image */
+ul.tabs a {
+    font-size:11px;
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    color: transparent;
+    padding:0px;
+    margin:0px;
+    position:relative;
+    top:10px;
+}
+
+  
+ul.tabs a:active {
+    outline:none;
+}
+
+.panes
+{
+background-color:#e3e3d5;
+
+}
+.Calender {
+  background-image:url('img/C1.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;
+}
+.Calender:hover {
+background-image:url('img/C2.png');
+width:32px;
+height:32px;
+background-repeat:no-repeat;
+}
+.Calender:active{
+background-image:url('img/C2.png');
+width:32px;
+height:32px;
+background-repeat:no-repeat;
+}
+
+.Facebook {
+  background-image:url('img/F1.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;
+}
+
+.Facebook:hover {
+  background-image:url('img/F2.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;  
+}
+  
+.Facebook:active {
+  background-image:url('img/F2.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;  
+}
+
+.Twitter {
+  background-image:url('img/T1.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;  
+}
+
+.Twitter:hover {
+  background-image:url('img/T2.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;  
+}
+  
+.Youtube {
+  background-image:url('img/Y1.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;
+}
+
+.Youtube:hover {
+  background-image:url('img/Y2.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;
+} 
+  
+.Google {
+  background-image:url('img/G1.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;
+}
+
+.Google:hover {
+  background-image:url('img/G2.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;
+}
+
+.Google:active {
+  background-image:url('img/G2.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;
+}
+
+.fbvisited {
+  background-image:url('img/F2.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;
+}
+  
+.tvisited {
+  background-image:url('img/T2.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;
+}
+  
+.yvisited {
+  background-image:url('img/Y2.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;}
+  
+.gvisited {
+  background-image:url('img/G2.png');
+  width: 32px;
+  height: 32px;
+  background-repeat:no-repeat;}
+.cvisited {
+ background-image:url('img/C2.png');
+ width:32px;
+ height:32px;
+ background-repeat:no-repeat;}
+  
+/* initially all panes are hidden */
+.panes .pane {
+display:none;
+}
+
+/*Links*/
+a:visited {color:blue;}
+a:link {text-decoration:underline;}
+a:visited {text-decoration:none;}
+a:active {color:#0000FF;}  /* selected link */
+/*a:hover{background-color:gray;}*/
+
+/*Changes color of the tab when selected*/
+
